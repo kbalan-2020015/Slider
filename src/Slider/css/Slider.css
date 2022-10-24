@@ -4,4 +4,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --heights: 70vh;
+  --widths: 50%;
+}
+
+.slider {
+  height: var(--heights);
+  width: var(--widths);
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=Slider.css.map */

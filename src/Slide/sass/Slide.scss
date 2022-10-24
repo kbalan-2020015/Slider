@@ -1,0 +1,36 @@
+.active {
+    display: inline-block;
+}
+
+.inactive {
+    display: none;
+}
+
+.slides {
+    height: var(--heights);
+    width: var(--widths);
+    position: relative;
+}
+
+.slide__img {
+    width: 146.7%;
+    height: 150%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.slide__title, .slide__name {
+    width: 148%;
+    height: 100%;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    z-index: 10;
+}
+
+.slide__name {
+    top: 40%;
+    font-size: 1.5rem;
+}
